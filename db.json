@@ -1,0 +1,187 @@
+{
+    "Classes": [
+        {
+            "Explorers": [
+                {
+                    "id": 1,
+                    "Class": "Warrior", 
+                    "Stat": "Strength (STR)",
+                    "Hometown": "Perion, Maple World",
+                    "Primary": "One-handed Sword/Axe, Two-handed Sword/Axe, Blunt Weapon",
+                    "Secondary": "N/A",
+                    "Instructor": "Dances with Balrog",
+                    "Advancement": [
+                    {
+                        "id": 101,
+                        "2nd": "Fighter",
+                        "3rd": "Crusader",
+                        "4th": "Hero",
+                        "nPrimary": "One-handed Sword/Axe, Two-handed Sword/Axe",
+                        "nSecondary": "Medallion, Shield"
+                    },
+                    {
+                        "id": 102,
+                        "2nd": "Page",
+                        "3rd": "White Knight",
+                        "4th": "Paladin",
+                        "nPrimary": "One/Two-handed Sword, Blunt Weapon",
+                        "nSecondary": "Rosary, Shield"
+                    },
+                    {
+                        "id": 103, 
+                        "2nd": "Spearman",
+                        "3rd": "Berserker",
+                        "4th": "Dark Knight",
+                        "nPrimary": "Spear, Polearm",
+                        "nSecondary": "Iron Chain"
+                    }
+                ]
+                },
+                {
+                    "id": 2,
+                    "Class": "Bowman",
+                    "Stat": "Dexterity (DEX)",
+                    "Hometown": "Henesys, Maple World",
+                    "Primary": "Bow, Crossbow, Ancient bow",
+                    "Secondary": "N/A",
+                    "Instructor": "Athena Pierce",
+                    "Advancement": [
+                        {
+                            "id": 201,
+                            "2nd": "Hunter",
+                            "3rd": "Ranger",
+                            "4th": "Bowmaster",
+                            "nPrimary": "Bow",
+                            "nSecondary": "Arrow Fletching"
+                        },
+                        {
+                            "id": 202,
+                            "2nd": "Crossbowman",
+                            "3rd": "Sniper",
+                            "4th": "Marksman",
+                            "nPrimary": "Crossbow",
+                            "nSecondary": "Bow Thimble"
+                        },
+                        {
+                            "id": 203,
+                            "2nd": "Ancient Archer",
+                            "3rd": "Soulchaser",
+                            "4th": "Pathfinder",
+                            "nPrimary": "Ancient Bow",
+                            "nSecondary": "Relic"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "Class": "Magician",
+                    "Stat": "Intelligence (INT)",
+                    "Hometown": "Ellinia, Maple World",
+                    "Primary": "Staff, Bow",
+                    "Secondary": "N/A",
+                    "Instructor": "Grendel, the Really Old",
+                    "Advancement": [
+                        {
+                            "id": 301,
+                            "2nd": "Wizard (Fire/Poison)",
+                            "3rd": "Mage (Fire/Poison)",
+                            "4th": "Arch Mage (Fire/Poison)",
+                            "nPrimary": "Staff, Bow",
+                            "nSecondary": "Shield, Magic Book"
+                        },
+                        {
+                            "id": 302,
+                            "2nd": "Wizard (Ice/Lightning)",
+                            "3rd": "Mage (Ice/Lightning)",
+                            "4th": "Arch Mage (Ice/Lightning)",
+                            "nPrimary": "Staff, Bow",
+                            "nSecondary": "Shield, Magic Book"
+                        },
+                        {
+                            "id": 303,
+                            "2nd": "Cleric",
+                            "3rd": "Priest",
+                            "4th": "Bishop",
+                            "nPrimary": "Staff, Bow",
+                            "nSecondary": "Shield, Magic Book"
+                        }
+                    ]
+                },
+                {
+                    "id": 4, 
+                    "Class": "Thief",
+                    "Stat": "Luck (LUK)",
+                    "Hometown": "Kerning City, Maple World",
+                    "Primary": "Claw, Dagger",
+                    "Secondary": "N/A",
+                    "Instructor": "Dark Lord",
+                    "Advancement": [
+                        {
+                            "id": 401,
+                            "2nd": "Assassin",
+                            "3rd": "Hermit",
+                            "4th": "Night Lord",
+                            "nPrimary": "Claw",
+                            "nSecondary": "Charm"
+                        },
+                        {
+                            "id": 402,
+                            "2nd": "Bandit",
+                            "3rd": "Chief Bandit",
+                            "4th": "Shadower",
+                            "nPrimary": "Dagger",
+                            "nSecondary": "Dagger Scabbard, Shield"
+                        },
+                        {
+                            "id": 403,
+                            "2nd": "Blade Acolyte",
+                            "3rd": "Blade Specialist",
+                            "4th": "Blade Master",
+                            "nPrimary": "Dagger",
+                            "nSecondary": "Katara",
+                            "nInstructor": "Lady Syl",
+                            "nBase": "Secret Garden"
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "Class": "Pirate",
+                    "Stat": "Strength (STR), Dexterity (DEX)",
+                    "Hometown": "Nautilus, Maple World",
+                    "Primary": "Knuckle, Gun, Hand Cannon",
+                    "Secondary": "N/A",
+                    "Instructor": "Kyrin",
+                    "Advancement": [
+                        {
+                            "id": 501,
+                            "2nd": "Brawler",
+                            "3rd": "Outlaw",
+                            "4th": "Buccaneer",
+                            "nPrimary": "Knuckle",
+                            "nSecondary": "Wrist Band"
+                        },
+                        {
+                            "id": 502, 
+                            "2nd": "Gunslinger", 
+                            "3rd": "Outlaw",
+                            "4th": "Corsair",
+                            "nPrimary": "Gun",
+                            "nSecomndary": "Far Sight"
+                        },
+                        {
+                            "id": 503,
+                            "2nd": "Cannoneer",
+                            "3rd": "Cannon Trooper",
+                            "4th": "Cannon Master",
+                            "nPrimary": "Hand Cannon",
+                            "nSecondary": "Powder Keg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+
+        
