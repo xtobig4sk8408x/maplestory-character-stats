@@ -1,187 +1,156 @@
 {
-    "Classes": [
+    "classes": [
         {
-            "Explorers": [
-                {
-                    "id": 1,
-                    "Class": "Warrior", 
-                    "Stat": "Strength (STR)",
-                    "Hometown": "Perion, Maple World",
-                    "Primary": "One-handed Sword/Axe, Two-handed Sword/Axe, Blunt Weapon",
-                    "Secondary": "N/A",
-                    "Instructor": "Dances with Balrog",
-                    "Advancement": [
-                    {
-                        "id": 101,
-                        "2nd": "Fighter",
-                        "3rd": "Crusader",
-                        "4th": "Hero",
-                        "nPrimary": "One-handed Sword/Axe, Two-handed Sword/Axe",
-                        "nSecondary": "Medallion, Shield"
-                    },
-                    {
-                        "id": 102,
-                        "2nd": "Page",
-                        "3rd": "White Knight",
-                        "4th": "Paladin",
-                        "nPrimary": "One/Two-handed Sword, Blunt Weapon",
-                        "nSecondary": "Rosary, Shield"
-                    },
-                    {
-                        "id": 103, 
-                        "2nd": "Spearman",
-                        "3rd": "Berserker",
-                        "4th": "Dark Knight",
-                        "nPrimary": "Spear, Polearm",
-                        "nSecondary": "Iron Chain"
-                    }
-                ]
-                },
-                {
-                    "id": 2,
-                    "Class": "Bowman",
-                    "Stat": "Dexterity (DEX)",
-                    "Hometown": "Henesys, Maple World",
-                    "Primary": "Bow, Crossbow, Ancient bow",
-                    "Secondary": "N/A",
-                    "Instructor": "Athena Pierce",
-                    "Advancement": [
-                        {
-                            "id": 201,
-                            "2nd": "Hunter",
-                            "3rd": "Ranger",
-                            "4th": "Bowmaster",
-                            "nPrimary": "Bow",
-                            "nSecondary": "Arrow Fletching"
-                        },
-                        {
-                            "id": 202,
-                            "2nd": "Crossbowman",
-                            "3rd": "Sniper",
-                            "4th": "Marksman",
-                            "nPrimary": "Crossbow",
-                            "nSecondary": "Bow Thimble"
-                        },
-                        {
-                            "id": 203,
-                            "2nd": "Ancient Archer",
-                            "3rd": "Soulchaser",
-                            "4th": "Pathfinder",
-                            "nPrimary": "Ancient Bow",
-                            "nSecondary": "Relic"
-                        }
-                    ]
-                },
-                {
-                    "id": 3,
-                    "Class": "Magician",
-                    "Stat": "Intelligence (INT)",
-                    "Hometown": "Ellinia, Maple World",
-                    "Primary": "Staff, Bow",
-                    "Secondary": "N/A",
-                    "Instructor": "Grendel, the Really Old",
-                    "Advancement": [
-                        {
-                            "id": 301,
-                            "2nd": "Wizard (Fire/Poison)",
-                            "3rd": "Mage (Fire/Poison)",
-                            "4th": "Arch Mage (Fire/Poison)",
-                            "nPrimary": "Staff, Bow",
-                            "nSecondary": "Shield, Magic Book"
-                        },
-                        {
-                            "id": 302,
-                            "2nd": "Wizard (Ice/Lightning)",
-                            "3rd": "Mage (Ice/Lightning)",
-                            "4th": "Arch Mage (Ice/Lightning)",
-                            "nPrimary": "Staff, Bow",
-                            "nSecondary": "Shield, Magic Book"
-                        },
-                        {
-                            "id": 303,
-                            "2nd": "Cleric",
-                            "3rd": "Priest",
-                            "4th": "Bishop",
-                            "nPrimary": "Staff, Bow",
-                            "nSecondary": "Shield, Magic Book"
-                        }
-                    ]
-                },
-                {
-                    "id": 4, 
-                    "Class": "Thief",
-                    "Stat": "Luck (LUK)",
-                    "Hometown": "Kerning City, Maple World",
-                    "Primary": "Claw, Dagger",
-                    "Secondary": "N/A",
-                    "Instructor": "Dark Lord",
-                    "Advancement": [
-                        {
-                            "id": 401,
-                            "2nd": "Assassin",
-                            "3rd": "Hermit",
-                            "4th": "Night Lord",
-                            "nPrimary": "Claw",
-                            "nSecondary": "Charm"
-                        },
-                        {
-                            "id": 402,
-                            "2nd": "Bandit",
-                            "3rd": "Chief Bandit",
-                            "4th": "Shadower",
-                            "nPrimary": "Dagger",
-                            "nSecondary": "Dagger Scabbard, Shield"
-                        },
-                        {
-                            "id": 403,
-                            "2nd": "Blade Acolyte",
-                            "3rd": "Blade Specialist",
-                            "4th": "Blade Master",
-                            "nPrimary": "Dagger",
-                            "nSecondary": "Katara",
-                            "nInstructor": "Lady Syl",
-                            "nBase": "Secret Garden"
-                        }
-                    ]
-                },
-                {
-                    "id": 5,
-                    "Class": "Pirate",
-                    "Stat": "Strength (STR), Dexterity (DEX)",
-                    "Hometown": "Nautilus, Maple World",
-                    "Primary": "Knuckle, Gun, Hand Cannon",
-                    "Secondary": "N/A",
-                    "Instructor": "Kyrin",
-                    "Advancement": [
-                        {
-                            "id": 501,
-                            "2nd": "Brawler",
-                            "3rd": "Outlaw",
-                            "4th": "Buccaneer",
-                            "nPrimary": "Knuckle",
-                            "nSecondary": "Wrist Band"
-                        },
-                        {
-                            "id": 502, 
-                            "2nd": "Gunslinger", 
-                            "3rd": "Outlaw",
-                            "4th": "Corsair",
-                            "nPrimary": "Gun",
-                            "nSecomndary": "Far Sight"
-                        },
-                        {
-                            "id": 503,
-                            "2nd": "Cannoneer",
-                            "3rd": "Cannon Trooper",
-                            "4th": "Cannon Master",
-                            "nPrimary": "Hand Cannon",
-                            "nSecondary": "Powder Keg"
-                        }
-                    ]
-                }
-            ]
+            "id": 101,
+            "second": "Fighter",
+            "third": "Crusader",
+            "fourth": "Hero",
+            "nPrimary": "One-handed Sword/Axe, Two-handed Sword/Axe",
+            "nSecondary": "Medallion, Shield",
+            "btnImage": "./image/Explorers/Warriors/NPCArtwork_Hero_29",
+            "image": "./image/Explorers/Warriors/ClassArtwork_Hero_2C_Male%29"
+        },
+        {
+            "id": 102,
+            "second": "Page",
+            "third": "White Knight",
+            "fourth": "Paladin",
+            "nPrimary": "One/Two-handed Sword, Blunt Weapon",
+            "nSecondary": "Rosary, Shield",
+            "btnImage": "./image/Explorers/Warriors/NPCArtwork_Paladin_29",
+            "image": "./image/Explorers/Warriors/ClassArtwork_Paladin_2C_Male%29"
+        },
+        {
+            "id": 103, 
+            "second": "Spearman",
+            "third": "Berserker",
+            "fourth": "Dark Knight",
+            "nPrimary": "Spear, Polearm",
+            "nSecondary": "Iron Chain",
+            "btnImage": "./image/Explorers/Warriors/NPCArtwork_Dark_Knight_29",
+            "image": "./image/Explorers/Warriors/ClassArtwork_Dark_Knight_2C_Male%29"
+        },
+        {
+            "id": 201,
+            "second": "Hunter",
+            "third": "Ranger",
+            "fourth": "Bowmaster",
+            "nPrimary": "Bow",
+            "nSecondary": "Arrow Fletching",
+            "btnImage": "./image/Explorers/Bowman/ClassArtwork_Bowmaster_2C_Female%29.webp",
+            "image": "./image/Explorers/Bowman/NPCArtwork_Bowmaster_29.webp"
+        },
+        {
+            "id": 202,
+            "second": "Crossbowman",
+            "third": "Sniper",
+            "fourth": "Marksman",
+            "nPrimary": "Crossbow",
+            "nSecondary": "Bow Thimble",
+            "btnImage": "./image/Explorers/Bowman/NPCArtwork_Marksman_29.webp",
+            "image": "./image/Explorers/Bowman/ClassArtwork_Marksman_Female%29.webp"
+        },
+        {
+            "id": 203,
+            "second": "Ancient Archer",
+            "third": "Soulchaser",
+            "fourth": "Pathfinder",
+            "nPrimary": "Ancient Bow",
+            "nSecondary": "Relic",
+            "btnImage": "./image/Explorers/Bowman/NPCArtwork_Pathfinder_29/webp",
+            "image": "./image/Explorers/Bowman/Artowkr_Pathfinder"   
+        },
+        {
+            "id": 301,
+            "second": "Wizard (Fire/Poison)",
+            "third": "Mage (Fire/Poison)",
+            "fourth": "Arch Mage (Fire/Poison)",
+            "nPrimary": "Staff, Bow",
+            "nSecondary": "Shield, Magic Book",
+            "btnImage": "./image/Explorers/Magicians/NPCArtwork_Magician_2C_Poison28Female%29.webp",
+            "image": "./image/Explorers/Magicians/ClassArtwork_Arch_Mage_2C_Poison28Destiny29.webp" 
+        },
+        {
+            "id": 302,
+            "second": "Wizard (Ice/Lightning)",
+            "third": "Mage (Ice/Lightning)",
+            "fourth": "Arch Mage (Ice/Lightning)",
+            "nPrimary": "Staff, Bow",
+            "nSecondary": "Shield, Magic Book",
+            "btnImage": "./image/Explorers/Magicians/NPCArtwork_Magician_2C_Lightning28Female%29.webp",
+            "image": "./image/Explorers/Magicians/ClassArtwork_Arch_Mage_2C_Lightning28Destiny.webp"
+        },
+        {
+            "id": 303,
+            "second": "Cleric",
+            "third": "Priest",
+            "fourth": "Bishop",
+            "nPrimary": "Staff, Bow",
+            "nSecondary": "Shield, Magic Book",
+            "btnImage": "./image/Explorers/Magicians/NPCArtwork_Bishop_29.webp",
+            "image": "./image/Explorers/Magicians/ClassArtwork_Bishop_2C_Female%29.webp"
+        },
+        {
+            "id": 401,
+            "second": "Assassin",
+            "third": "Hermit",
+            "fourth": "Night Lord",
+            "nPrimary": "Claw",
+            "nSecondary": "Charm",
+            "btnImage": "./image/Explorers/Thiefs/NPCArtwork_Night_Lord_29.webp",
+            "image": "./image/Explorers/Thiefs/ClassArtwork_Night_Lord_2C_Male%29.webp"   
+        },
+        {
+            "id": 402,
+            "second": "Bandit",
+            "third": "Chief Bandit",
+            "fourth": "Shadower",
+            "nPrimary": "Dagger",
+            "nSecondary": "Dagger Scabbard, Shield",
+            "btnImage": "./image/Explorers/Thiefs/NPCArtwork_Shadower_29.webp",
+            "image": "./image/Explorers/Thiefs/ClassArtwork_Shadower_2C_Female%29.webp"
+        },
+        {
+            "id": 403,
+            "second": "Blade Acolyte",
+            "third": "Blade Specialist",
+            "fourth": "Blade Master",
+            "nPrimary": "Dagger",
+            "nSecondary": "Katara",
+            "btnImage": "./image/Explorers/Thiefs/NPCArtwork_Dual_Blade_29.webp",
+            "image": "./image/Explorers/Thiefs/ClassArtwork_Dual_Blade_2C_Male%29.webp",         
+            "Instructor": "Lady Syl",
+            "nBase": "Secret Garden"
+        },
+        {
+            "id": 501,
+            "second": "Brawler",
+            "third": "Outlaw",
+            "fourth": "Buccaneer",
+            "nPrimary": "Knuckle",
+            "nSecondary": "Wrist Band",
+            "btnImage": "./image/Explorers/Pirates/NPCArtwork_Buccaneer_29.webp",
+            "image": "./image/Explorers/Pirate/ClassArtwork_Buccaneer_2C_Male%29.webp"        
+        },
+        {
+            "id": 502, 
+            "second": "Gunslinger", 
+            "third": "Outlaw",
+            "fourth": "Corsair",
+            "nPrimary": "Gun",
+            "nSecondary": "Far Sight",
+            "btnImage": "./image/Explorers/Pirate/NPCArtwork_Corsair_29.webp",
+            "image": "./image/Explorers/Pirate/ClassArtwork_Buccaneer_2C_Male%29.webp"
+        },
+        {
+            "id": 503,
+            "second": "Cannoneer",
+            "third": "Cannon Trooper",
+            "fourth": "Cannon Master",
+            "nPrimary": "Hand Cannon",
+            "nSecondary": "Powder Keg",
+            "btnImage": "./image/Explorers/Pirate/NPCArtwork_Cannoneer_29.webp",
+            "image": "./image/Explorers/Pirate/ClassArtwork_Cannoneer_29.webp"
         }
     ]
 }
-
-        

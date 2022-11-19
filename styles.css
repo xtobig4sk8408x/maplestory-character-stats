@@ -1,5 +1,6 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
+    cursor: url('./image/cursor_hand_anim.gif\(mediaclass-full-width.c3083fedae46a95f1139ff9d5833b1b6b8e20a69\).gif'), auto;
 }
 
 body {
@@ -56,3 +57,4 @@ h3 {
 p {
     display:none;
 }
+
