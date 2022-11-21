@@ -8,70 +8,52 @@ const detailImage = document.getElementById('detail-image');
 
 function renderCharacters(character) {
     const mini = document.createElement('img');
-    
-    mini.src = character.image;
-    mini.alt = character.class;
+    const name = document.getElementById('name');
+        
+    mini.src = character.btnImage;
+    mini.alt = character.fourth;
 
     mini.addEventListener('click', (e) => {
+        console.log(e);
         e.preventDefault();
-        const name = document.getElementById('name');
-        const hq = document.getElementById('base');
-        const job = document.createElement('p');
-        const stats = document.createElement('p');
-        const pWeapon = document.createElement('p');
-        const sWeapon = document.createElement('p');
-        const instruct = document.createElement('p');
+        const secClass = document.getElementById('second-advancement');
+        const thirdClass = document.getElementById('third-advancement');
+        const pWeapon = document.getElementById('primary');
+        const sWeapon = document.getElementById('secondary');
+        const classImage = document.createElement('img');
 
-        name.innerText = character.class;
-        hq.innerText = character.base;
-        stats.innerText = character.stat;
-        job.innerText = character.class;
-        pWeapon.innerText = character.primary;
-        sWeapon.innerText = character.secondary;
-        instruct.innerText = character.instructor;
+        name.innerText = e.target.alt;
+        classImage.alt = e.target.alt;
+        classImage.src = e.target.image;
+        secClass.innerText = e.target.second;
+        thirdClass.innerText = e.target.third;
+        pWeapon.innerText = e.target.nPrimary;
+        sWeapon.innerText = e.target.nSecondary;
+
+        detailImage.append(classImage);
+        charDetails.append(detailImage, name, secClass, thirdClass, pWeapon, sWeapon);
+    })
+
+    mini.addEventListener('mouseover', (e) => {
+        e.preventDefault();
+        const name1 = document.getElementById('character-details');
+        
+        
+        name1.innerText = e.target.alt;
+        name1.style.display = ('unset');
+
+        //console.log(e);
+        //console.log(e.target.alt);
+    })
+
+    mini.addEventListener('mouseout', (e) => {
+        e.preventDefault();
+        const el = document.getElementById('character-details');
+        //console.log(e);
+        el.style.display = 'none';
     })
     charDisplay.append(mini);
 }
-
-        // const newName = document.getElementById('name');
-        // const mWeapon = document.createElement('p');
-        // const sWeapon = document.createElement('p');
-        // const newImg = document.createElement('img');
-
-        // newName.innerText = document.createElement('p');
-        
-
-        // detailImage.src = character.advancement[i].btnImage;
-        // detailImage.alt = character.advancement[i].fourth;
-        // newName.innerText = character.advancement[i].fourth;
-        // mWeapon.innerText = character.advancement[i].nPrimary;
-        // sWeapon.innerText = character.advancement[i].nSecondary;
-        // newImg
-
-        // e.target.append(newName, newImg, mWeapon, sWeapon, hq, instruct)
-
-        // charDetails.append(detailImage, name, hq)
-        
-        // detailImage.addEventListener('click', (e) => {
-        //     e.preventDefault();
-        //     newImg.src = character.advancement[i].image;
-        //     newImg.alt = character.advancement[i].fourth;
-
-            
-
-
-//     mini.addEventListener('mouseover', () => {
-//         previewStats();
-//     })
-    
-    
-//     form.addEventListener('submit', (e) => {
-//         e.preventDefault();
-//         const linput = document.getElementById('likes');
-//         ratingDisplay.innerText = parseInt(ratingDisplay.innerText) + parseInt(linput);
-//     })
-// }
-
 
 fetch(API)
 .then(r => r.json())

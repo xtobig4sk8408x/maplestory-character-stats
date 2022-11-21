@@ -20,7 +20,7 @@ header {
 body {
     padding: 1rem;
     text-align: center;
-    background-color: #FAF9F6;
+    background-color: white;;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,7 +30,7 @@ body {
 
 #characters {
     display: flex;
-    overflow-x: auto;
+    overflow: auto;
     margin: 1rem 0;
     max-width: calc(100vw - 2rem);
 }
@@ -46,12 +46,20 @@ body {
     margin-right: 0;
 }
 
-#character-details {
+.name {
+    bottom: 60px;
+}
+
+.stat { 
+    bottom: 20 px;
+}
+
+.character-details {
     display: none;
 }
 
-h3 {
-    display:none;
+.character-details-show {
+    display: unset;
 }
 
 p {
